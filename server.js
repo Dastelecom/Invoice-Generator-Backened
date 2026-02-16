@@ -14,7 +14,7 @@ const app = express();
 app.use(helmet());
 
 app.use(cors({
-  origin: "https://your-frontend-domain.vercel.app",
+  origin: "https://dastelecombkp.netlify.app",
   credentials: true
 }));
 
