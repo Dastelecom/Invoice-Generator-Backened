@@ -1,20 +1,20 @@
 {
-  "name": "invoice-generator-backened",
+  "name": "backend",
   "version": "1.0.0",
   "type": "module",
   "main": "server.js",
   "engines": {
-    "node": "24.x"
+    "node": "18.x"
   },
   "dependencies": {
     "argon2": "^0.30.0",
+    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.18.2",
+    "express-rate-limit": "^7.0.0",
     "helmet": "^7.0.0",
     "jsonwebtoken": "^9.0.0",
-    "pg": "^8.11.0",
-    "cookie-parser": "^1.4.6",
-    "express-rate-limit": "^7.0.0"
+    "pg": "^8.11.0"
   }
 }
